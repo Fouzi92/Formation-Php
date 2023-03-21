@@ -16,9 +16,25 @@ $ageDuLyceen = 20;
 echo $age_du_lyceen; */
 
 // Concatenation de variable 
-$direBonjour =  "Aller";
+/*/$direBonjour =  "Aller";
 $distanation = "PARIS SG";
 
-echo $direBonjour . ' ' .$distanation. ' le football gagne !';
+echo $direBonjour . ' ' .$distanation. ' le football gagne !';*/
+
+//Operateur en Php 
+// Regarde la petite fiche dans le dossier !
+//Les tableaux en Php 
+
+// $identitePersonneA = array (
+//     'id'     => 32,
+//     'prenom' => 'Oscar',
+//     'nom'    => 'Gold',
+//     'age'    => '28'
+// );
+
+$identitePersonneA = array(15, 'Eden', 'Yokohama', 36, 'chomeur');
+
+echo 'Salam ' .$identitePersonneA [1].' '. $identitePersonneA[4].' !';
+
 
 ?>
