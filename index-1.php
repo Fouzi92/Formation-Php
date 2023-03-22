@@ -48,4 +48,61 @@ $ageDans50ans = $identitePersonneB ['age'] + 50;
 
 echo 'Salam ' .$identitePersonneB['prenom'].' '.$identitePersonneB['nom'].' ! Dans 50 ans vous aurez '.$ageDans50ans. ' ans.';
 
+// Conditions : IF 
+
+// $age = 82; 
+
+// if($age > 17) {
+
+//     echo "Vous etes majeur";
+// }
+
+// if($age < 17) {
+  
+//   echo"vous etes mineur";
+// }
+
+// $age = 8;
+
+// if($age <= 17 ) {
+
+//     echo'Vous etes minieur';
+// }
+//  if($age >= 18) { 
+
+//  echo'Vous etes majeur';
+//  }
+
+//  if($pseudo == "Tintin" AND $mdp == "Lune") {
+
+//     echo"Mot de passe valide.";
+//  }
+
+// LES ternaire https://stacklima.com/php-operateur-ternaire/
+// $age = 14;
+// echo ($age >= 19) ? "adult" : "not adulet";
+
+//  $pseudo = "Tintin";
+//  $mdp = "Lune";
+
+//   if($pseudo == "Tintin" AND $mdp == "Lune") {
+
+//     echo "Mot de passe valide";
+//   } else {
+//     echo "Mot de passe invalide";
+//   }
+
+// $age = 18; 
+
+// if($age > 18) {
+
+//     echo "Vous etes majeur.";
+// } else if($age == 18) {
+//     echo"Bg vaaaaaa";
+// } else { 
+//  echo"vous etes mienur";
+
+// }
+
+
 ?>
