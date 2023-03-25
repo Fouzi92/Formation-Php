@@ -26,4 +26,13 @@ for ($i = 0; $i <10; $i++) {
     echo 'Voici le numéro de la ligne :'.($i+1).'<br/>';
 }
  
+  // Les Boucles Foreach 
+
+  $user = array('Nicolas', 'Said', 'Aurelia','Julien','itach','Faouzi');
+  /* for($i = 0, $size = count($user); $i < $size; ++$i)
+       echo $user[$i].'<br>';*/
+
+foreach ($user as $name) {
+echo $name. '<br/>';
+}
  ?>
